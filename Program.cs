@@ -129,7 +129,14 @@ namespace lynchbot
 
             string generatedQuote = string.Join(" ", chain.Chain(rand));
 
-            return TruncateQuote(generatedQuote);
+            if (generatedQuote.Length > 280)
+            {
+                return GenerateQuote();
+            }
+            else 
+            {
+                return generatedQuote;
+            }
         }
 
         static string GenerateQuoteWithBackoff()
@@ -143,8 +150,15 @@ namespace lynchbot
             IEnumerable<string> result = chain.Chain(rand);
             string generatedQuote = string.Join(" ", result);
 
-            return TruncateQuote(generatedQuote);
-        }
+             if (generatedQuote.Length > 280)
+            {
+                return GenerateQuote();
+            }
+            else 
+            {
+                return generatedQuote;
+            }
+}
 
         static string TruncateQuote(string quote)
         {
