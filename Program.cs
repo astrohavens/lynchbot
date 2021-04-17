@@ -272,7 +272,7 @@ namespace lynchbot
 "I don't like to talk about my work." , 
 "There's no reason for it." , 
 "It's interesting to go back over your life." ,
-"There are over 7.5 billion peopl on Earth and every life is different." , 
+"There are over 7.5 billion people on Earth and every life is different." , 
 "You pop out of your mother and your life starts." , 
 "So many things happen in the first hour!" , 
 "And it's like, how come somebody becomes a scientist?" , 
@@ -393,7 +393,7 @@ namespace lynchbot
 "With the zipper open and the bags sagging on the pegs, it looked like these big smiles." , 
 "I called them the smiling bags of death." , 
 "It’s like you miss jabbing your knee with an icepick!" , 
-"Which had pitch oozing out of it. " , 
+"Which had pitch oozing out of it." , 
 "No I haven't changed my mind." , 
 "And if I don't like what comes out, I change the words and then a new things comes out," , 
 "And if that's not quite right I change the words, change the words, change the words." ,             };
